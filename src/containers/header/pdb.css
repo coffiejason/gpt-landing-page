@@ -1,0 +1,64 @@
+/*prints database button*/
+
+.action-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .action-btn button {
+    width: 100%;
+    border: none;
+    height: 35px;
+    background-color: #d57373;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+    display: block;
+  }
+
+  
+.action-btn button:hover {
+  background-color: #d66363;
+}
+
+.action-btn button:focus {
+  outline: 0.05em dashed #d66363; 
+  outline-offset: 0.05em;
+}
+
+.action-btn button::after {
+  content: '';
+  display: block;
+  width: 1.2em;
+  height: 1.2em;
+  position: absolute;
+  left: calc(50% - 0.75em);
+  top: calc(50% - 0.75em);
+  border: 0.15em solid transparent;
+  border-right-color: white;
+  border-radius: 50%;
+  animation: button-anim 0.7s linear infinite;
+  opacity: 0;
+}
+
+@keyframes button-anim {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.action-btn button.loading {
+  color: transparent;
+}
+
+.action-btn button.loading::after {
+  opacity: 1;
+}
+
+/*prints database button*/
