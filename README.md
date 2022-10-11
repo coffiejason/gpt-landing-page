@@ -1,7 +1,4 @@
 
-![Logo](src/assets/logo.png)
-
-
 # GPT3 LANDING PAGE
 
 A simple landing page for Open AI's GPT3 with email input validation
