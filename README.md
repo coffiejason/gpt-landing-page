@@ -22,7 +22,7 @@ React, CSS
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/coffiejason/gpt-landing-page
 ```
 
 Go to the project directory
