@@ -9,7 +9,7 @@ A simple landing page for Open AI's GPT3 with email input validation
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](src/assets/screenshot.png)
 
 
 ## Demo
