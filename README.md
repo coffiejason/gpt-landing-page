@@ -43,3 +43,7 @@ Start the server
   npm run start
 ```
 
+## 🚀 About Me
+I'm Coffie Jason, a full stack developer skilled in React and Nodejs. Reach out to me coffiejasoncj@gmail.com
+
+
